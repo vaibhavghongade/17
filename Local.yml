@@ -1,0 +1,10 @@
+- name: Playbook1
+  hosts: localhost
+  vars:
+   URL: CRICBUZZ.COM
+  tasks:
+  - name: Print messages_1 
+    debug:
+     msg: "{{URL}}"
+  vars:
+   URL:   Chana.com
