@@ -1,6 +1,6 @@
 - name: Playbook
   hosts: localhost
-  vars_file: vsg.yml
+  vars_files: vsg.yml
   # vars:
   tasks:
    - name: Print messages_1 
