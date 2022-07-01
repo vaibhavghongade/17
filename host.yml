@@ -1,0 +1,8 @@
+name: playbook
+hosts: localhost
+vars:
+
+tasks:
+ name: print messages_1
+ debug:
+  msg: "{{URL}}"
