@@ -2,7 +2,7 @@
   hosts: localhost
   tasks:
     -name: print the host detail
-     debug: 
-     msg: Domain name of ansible: "{{ansible_user_gid}}"
+      debug: 
+        msg: Domain name of ansible: "{{ansible_user_gid}}"
   
  
