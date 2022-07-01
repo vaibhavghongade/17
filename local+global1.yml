@@ -1,4 +1,4 @@
-- name: Playbook1
+- name: Playbook
   hosts: localhost
   vars_file: vsg.yml
   # vars:
