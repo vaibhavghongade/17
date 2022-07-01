@@ -2,7 +2,7 @@
   hosts: localhost
   vars_file: vsg.yml
   # vars:
-   tasks:
+  tasks:
    - name: Print messages_1 
      debug:
       msg: "{{URL}}"
