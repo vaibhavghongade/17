@@ -1,13 +1,14 @@
 - name: playbook1
-  hosts: localhost
+  hosts: all
   tasks:
-    - name: print the host detail
+    - name: print the host detail1
       debug: 
         msg: "Domain name of ansible: {{ansible_user_gid}}"
-    - name: print the host detail
+    
+    - name: print the host detail2
       debug: 
         msg: "Domain name of ansible: {{ansible_system_vendor}}" 
-     - name: print the host detail
+     - name: print the host detail3
       debug: 
         msg: "Domain name for ansible: {{ansible_virtualization_type}}"
  
