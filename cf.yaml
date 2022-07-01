@@ -1,5 +1,5 @@
 - name: playbook1
-  hosts: all 
+  hosts: localhost
   tasks:
     -name: print the host detail
      debug: 
