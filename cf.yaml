@@ -3,6 +3,6 @@
   tasks:
     - name: print the host detail
       debug: 
-        msg: Domain name of ansible: "{{ansible_user_gid}}"
+        msg: "Domain name of ansible: {{ansible_user_gid}}"
   
  
