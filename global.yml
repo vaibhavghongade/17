@@ -1,6 +1,6 @@
 - name: Playbook1
-  host: localhost
+  hosts: localhost
   tasks:
-- name: Print messages_1 
-  debug:
+  - name: Print messages_1 
+    debug:
      msg: "vaibhav" 
