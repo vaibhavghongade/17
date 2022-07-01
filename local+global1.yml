@@ -2,9 +2,9 @@
   hosts: localhost
   vars_file: vsg.yml
   # vars:
-  # tasks:
-  # - name: Print messages_1 
-    # debug:
-    #  msg: "{{URL}}"
+   tasks:
+   - name: Print messages_1 
+     debug:
+      msg: "{{URL}}"
   # vars:
   # / URL:   Chana.com
