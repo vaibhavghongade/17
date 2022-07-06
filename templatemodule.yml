@@ -1,9 +1,9 @@
 - name: template module
   hosts: all
   become: true
-  # vars:
-  #   demo: <variable name>  # mention in file by: {{}}
+   vars:
+     messi: writeanything
   tasks:
     - template:
-        src: swapnilsir.yml
-        dest: /mnt
+        src: chetan.yml
+        dest: /mnt/jarvis.txt
