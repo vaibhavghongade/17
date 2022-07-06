@@ -1,0 +1,12 @@
+- name: blockinfile module
+  hosts: all
+  become: true
+  tasks:
+    - blockinfile:
+        path: /mnt/aishwarya.txt
+        create: yes
+        block: |
+          <virtualhost *:80>
+          servername localhost
+          documentroot /var/www/html
+          </virtualhost>
