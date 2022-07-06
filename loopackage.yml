@@ -3,11 +3,11 @@
   become: true
   tasks: 
   - name : install packages
-      apt: 
-        name: "{{item}}"
-        state: latest
-      loop:
-        - httpd
-        - tree
-        - vsftpd
-        
+    apt: 
+     name: "{{item}}"
+     state: latest
+    loop:
+    - httpd
+    - vim
+    - tree
+    - tomcat   
