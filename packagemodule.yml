@@ -1,0 +1,7 @@
+- name: Package server installation
+  hosta: all
+  tasks:
+    - name: package installation
+      package: 
+        name: httpd
+        state: present
