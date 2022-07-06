@@ -1,0 +1,6 @@
+- name: playbook l
+  hosts: all
+  tasks:
+    - name: copy file
+        src: loop.yml
+        dest: <location to pest by name>
