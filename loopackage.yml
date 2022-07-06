@@ -1,8 +1,8 @@
 - name : loop name
   hosts: all
+  become: true
   tasks: 
  - name : install packages
-      become: true
       apt: 
         name: "{{item}}"
         state: latest
