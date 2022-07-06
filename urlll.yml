@@ -1,0 +1,9 @@
+- name: my
+  hosts: all
+  tasks:
+  - name: dhoniacademy
+    set_fact: URL= ["msd.com","mjstar.in"] city= zewatonio 
+
+  - name: setfacl
+    debug:
+      msg: "print{{URL}} {{city}}"
