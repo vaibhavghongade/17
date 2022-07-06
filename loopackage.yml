@@ -1,4 +1,4 @@
-- name : loop name
+- name: playbook
   hosts: all
   become: true
   tasks: 
@@ -7,7 +7,5 @@
      name: "{{item}}"
      state: latest
     loop:
-     - httpd
-     - vim
-     - tree
-     - tomcat   
+     - Nginx
+     - vsftpd  
