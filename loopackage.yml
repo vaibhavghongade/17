@@ -2,7 +2,7 @@
   hosts: all
   become: true
   tasks: 
- - name : install packages
+  - name : install packages
       apt: 
         name: "{{item}}"
         state: latest
