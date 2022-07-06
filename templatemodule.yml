@@ -1,0 +1,7 @@
+- name: template module
+  hosts: all
+  become: true
+  tasks:
+    - template:
+        src: hosts
+        dest: /mnt/vaibbbhav
