@@ -1,7 +1,9 @@
 - name: template module
   hosts: all
   become: true
+  vars:
+    demo: <variable name>  # mention in file by: {{}}
   tasks:
     - template:
-        src: hosts
-        dest: /mnt/vaibbbhav
+        src: dewald
+        dest: /mnt
