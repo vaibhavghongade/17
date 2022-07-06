@@ -1,5 +1,5 @@
 - name: Package server installation
-  hosta: all
+  hosts: all
   tasks:
     - name: package installation
       package: 
