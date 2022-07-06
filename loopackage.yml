@@ -7,7 +7,7 @@
      name: "{{item}}"
      state: latest
     loop:
-    - httpd
-    - vim
-    - tree
-    - tomcat   
+     - httpd
+     - vim
+     - tree
+     - tomcat   
