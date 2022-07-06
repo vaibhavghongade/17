@@ -1,0 +1,7 @@
+- name: copy module
+  hosts: all
+  tasks:
+    - name: copy file
+      copy: 
+        src: <file to copy>
+        dest: <location to pest by name>
