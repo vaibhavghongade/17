@@ -1,7 +1,7 @@
 - name: template module
   hosts: all
   become: true
-   vars:
+  vars:
      messi: writeanything
   tasks:
     - template:
