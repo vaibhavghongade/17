@@ -1,9 +1,9 @@
 - name: template module
   hosts: all
   become: true
-  vars:
-    demo: <variable name>  # mention in file by: {{}}
+  # vars:
+  #   demo: <variable name>  # mention in file by: {{}}
   tasks:
     - template:
-        src: dewald
+        src: swapnilsir.yml
         dest: /mnt
