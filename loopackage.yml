@@ -1,0 +1,13 @@
+- name : loop name
+  hosta: all
+  tasks: 
+ - name : install packages
+      become: true
+      apt: 
+        name: "{{item}}"
+        state: latest
+      loop:
+        - httpd
+        - tree
+        - vsftpd
+        
