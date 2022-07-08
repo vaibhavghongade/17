@@ -1,0 +1,9 @@
+- name: template module
+  hosts: all
+  become: true
+  vars:
+     messi: writeanything
+  tasks:
+    - template:
+        src: chetan.yml
+        dest: /mnt/jarvis.txt

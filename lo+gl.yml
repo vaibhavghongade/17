@@ -1,0 +1,9 @@
+- name: Playbook1
+  hosts: localhost
+  vars_files: vsg.yml
+
+  tasks:
+
+  - name: Print messages_1
+    debug:
+      msg: "{{URL}}"
