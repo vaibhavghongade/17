@@ -3,9 +3,9 @@ node {
         git 'https://github.com/vaibhavghongade/17.git'  
     }
     stage('Test') { 
-        sh 'echo pwd >> home.txt' 
+        sh 'echo pwd >> homee.txt' 
     }
     stage('Deploy') { 
-        sh 'mkdir messi' 
+        sh 'mkdir messii' 
     }
 }
